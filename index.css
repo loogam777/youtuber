@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.imag01{
+    width:90px;height:50px ;
+}
+.conteine_01{
+    display: flex;
+}
+.menu_ul_pesquisa{
+    display: flex;
+    flex-direction: row;
+}
