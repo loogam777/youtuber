@@ -12,3 +12,19 @@ body{
     display: flex;
     flex-direction: row;
 }
+.menu_ul{
+    display: flex;
+    padding-bottom: 27px;
+    padding-left: 350px;
+}
+#pesquisa{
+    width: 350px;
+    border-radius: 15px;
+}
+.material-symbols-outlined{
+    padding-left: 15px;
+}
+#vide_canee_icon{
+    position: relative;
+    left: 70px;
+}
