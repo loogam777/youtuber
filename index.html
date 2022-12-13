@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/favYT-ConversImagem.ico">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -12,24 +13,22 @@
 </head>
 <body>
   <header>
-    <div class="conteine_01">
-        <nav class="menu_ul_pesquisa">
-            <img class="imag01" src="assets/logo_youttube.png">
-            <ul class="menu_ul">
-                <input id="pesquisa" type="search"><span class="material-symbols-outlined">
-                  search
-                  </span>
-                  <span class="material-symbols-outlined">
-                    mic
-                    </span>
-                    <span id="vide_canee_icon" class="material-symbols-outlined">video_camera_back
-                      </span>
-                      <span id="vide_canee_icon" class="material-symbols-outlined">
-                        notifications
-                        </span>
-            </ul>
-        </nav>
-    </div>
+    <nav class="conteine_01">
+        <div class="container-logo">
+        <button class="botao"><span class="material-symbols-outlined">menu</span></button>
+        <img class="imag01" src="assets/logo_youttube.png">
+        </div>
+        <div class="conf_pesquisa">
+            <input id="pesquisa" type="search" placeholder="Pesquisar">
+            <button class="lupa"><span><search class="material-symbols-outlined">search</span></button>
+            <button class="botao"><span class="material-symbols-outlined">mic</span></button>
+        </div>
+        <div class="container_botoes">
+                <button class="botao"><span  class="material-symbols-outlined">video_camera_back</span></button>
+                <button class="botao"><span  class="material-symbols-outlined">notifications</span></button>
+                <button class="botao"> <span class="material-symbols-outlined">account_circle</span></button>
+        </div>
+    </nav>
   </header>
   <main class="conteudo">
     <section class="menu__lateral">
@@ -81,6 +80,22 @@
                 <li class="configuracao__li"><a class="configuracao__link" href=""><span class="material-symbols-outlined">feedback</span>Enviar feedback</a></li>
             </ul>
         </div>
+        <footer>
+            <ul>
+                <li><a href="#">
+                    Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores
+                </a></li>
+                <li><a href="#">
+                    Termos Privacidade Política e segurança
+                </a></li>
+                <li><a href="#">
+                    Como funciona o YouTubeTestar os novos recursos
+                </a></li>
+            </ul>
+            <h6>
+                © 2022 Google LLC
+            </h6>
+        </footer>
     </section>
     <section class="conteudo__video">
         <div>
@@ -143,7 +158,5 @@
        </div>
     </section>
   </main>
-  <footer>
-  </footer>
 </body>
 </html>

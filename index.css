@@ -1,27 +1,49 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
 }
 .imag01{
-    width:90px;height:50px ;
+    width:100px;
 }
+.conf_pesquisa, .container-logo, .container_botoes{
+    display: flex;
+}
+.conteiner_butoes_header{
+    display: flex;
+}
+
+.botao{
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+.botao:hover{
+    background-color: #dddcdc;
+}
+
 .conteine_01{
     display: flex;
+    justify-content: space-between;
     height: 100px;
-}
-.menu_ul_pesquisa{
-    display: flex;
-    flex-direction: row;
-}
-.menu_ul{
-    display: flex;
-    padding-bottom: 27px;
-    padding-left: 350px;
+    padding: 5px;
+    align-items: flex-start;
 }
 #pesquisa{
-    width: 350px;
-    border-radius: 15px;
+    height: 40px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 50px 0 0 50px;
+    border: 0.2px solid rgb(189, 188, 188);
+    font-size: 15px;
 }
+.lupa{
+    border-radius: 0 50px 50px 0;
+    height: 38px;
+    border: 0.2px solid rgb(189, 188, 188);
+}
+
 .material-symbols-outlined, .material-icons{
     padding-left: 15px;
 }
@@ -41,6 +63,7 @@ body{
     margin-left: 0px;
     position: fixed;
     overflow-y: scroll;
+    scrollbar-color: ;
 }
 
 .menu__ul,.explorar__ul, .configuracao__ul {
@@ -62,13 +85,14 @@ body{
 
 .menu__li:hover, .menu__li.ativo, .login__link:hover, .explorar__li:hover, .procurar__link:hover, .configuracao__li:hover {
     background-color: #ecebeb;
+    
 }
 
 .menu__link, .configuracao__link {
     text-decoration: none;
     color: black;
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .material-symbols-outlined, .material-icons {
@@ -77,6 +101,7 @@ body{
 
 .linha {
     border-top: 1px solid #ecebeb;
+    margin: 5px 0 5px 0;
 }
 
 .login__p {
@@ -96,7 +121,7 @@ body{
 }
 
 .explorar {
-    margin-top: 30px;
+    margin: 30px 0 30px 0;
 }
 
 .explorar__titulo {
@@ -132,7 +157,7 @@ body{
 
 .conteudo__video {
     width: 85%;
-    margin-left: 15%;
+    margin-left: 20%;
 }
 
 .ul__conteudo {
@@ -184,4 +209,29 @@ body{
 
 .video__p {
     margin: 0px 30px;
+}
+
+/*Footer*/
+
+footer{
+    padding: 20px;
+}
+footer ul{
+    list-style: none;
+}
+
+footer ul li a{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer ul li:first-child{
+    margin-bottom: 10px;
+}
+
+footer h6{
+    margin: 20px 0 20px 0;
+    color:#606060
 }
